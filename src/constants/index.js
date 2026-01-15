@@ -181,18 +181,19 @@ const technologies = [
 
 const experiences = [
   {
-    title: "IT Intern",
-    company_name: "Pakistan Aeronautical Complex Kamra (AMF)",
-    icon: pacLogo,
-    iconBg: "#1a1a1a",
-    date: "Jun 2023 - Aug 2023",
+    title: "AI Intern",
+    company_name: "MachVis Lab",
+    icon: machvisLogo,
+    iconBg: "#151515",
+    date: "Jun 2025 - Nov 2025",
     points: [
-      "Researched and gained hands-on experience in IT and cybersecurity, focusing on network security, vulnerability management, and threat analysis.",
-      "Collaborated with senior IT staff to improve system protocols and enhance data security measures.",
-      "Assisted in network operations, troubleshooting, and routine system maintenance.",
-      "Supported server operations including user access control and enterprise-level IT solutions.",
+      "Worked on Computer Vision, NLP, and LLM-based projects, contributing to model development, fine-tuning, and evaluation.",
+      "Integrated and optimized AI models within research workflows and real-world application pipelines.",
+      "Preprocessed datasets and improved model performance for practical deployment.",
+      "Collaborated with senior researchers on cutting-edge AI projects to produce high-impact results.",
     ],
   },
+  
   {
     title: "AI Intern",
     company_name: "Rapidev (NSTP)",
@@ -207,18 +208,19 @@ const experiences = [
     ],
   },
   {
-    title: "AI Intern",
-    company_name: "MachVis Lab",
-    icon: machvisLogo,
-    iconBg: "#151515",
-    date: "Jun 2025 - Nov 2025",
+    title: "IT Intern",
+    company_name: "Pakistan Aeronautical Complex Kamra (AMF)",
+    icon: pacLogo,
+    iconBg: "#1a1a1a",
+    date: "Jun 2023 - Aug 2023",
     points: [
-      "Worked on Computer Vision, NLP, and LLM-based projects, contributing to model development, fine-tuning, and evaluation.",
-      "Integrated and optimized AI models within research workflows and real-world application pipelines.",
-      "Preprocessed datasets and improved model performance for practical deployment.",
-      "Collaborated with senior researchers on cutting-edge AI projects to produce high-impact results.",
+      "Researched and gained hands-on experience in IT and cybersecurity, focusing on network security, vulnerability management, and threat analysis.",
+      "Collaborated with senior IT staff to improve system protocols and enhance data security measures.",
+      "Assisted in network operations, troubleshooting, and routine system maintenance.",
+      "Supported server operations including user access control and enterprise-level IT solutions.",
     ],
   },
+  
 ];
 
 
