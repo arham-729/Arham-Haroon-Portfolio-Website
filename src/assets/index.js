@@ -45,7 +45,7 @@ import pytorch from './tech/py2.png';
 import numpy from './tech/numpy.png';
 import pandas from './tech/pandas.jpg';
 import opencv from './tech/opencv.png';
-import cpp from './tech/c++.png';
+import cpp from './tech/cpp.png';
 import cicon from './tech/Clang.png';
 import java from './tech/java.png';
 
