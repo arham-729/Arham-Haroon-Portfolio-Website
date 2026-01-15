@@ -11,7 +11,6 @@ const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
-    email: "",
     message: "",
   });
   const [loading, setLoading] = useState(false);
@@ -33,7 +32,6 @@ const Contact = () => {
         {
           from_name: form.name,
           to_name: "Arham",
-          from_email: form.email,
           to_email: "arhamharoonansari70@gmail.com",
           message: form.message,
         },
@@ -46,7 +44,6 @@ const Contact = () => {
 
           setForm({
             name: "",
-            email: "",
             message: "",
           });
         },
@@ -114,17 +111,6 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
-            />
-          </label>
-          <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Email</span>
-            <input
-              type="email"
-              name="email"
-              value={form.email}
-              onChange={handleChange}
-              placeholder="What's your email?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
