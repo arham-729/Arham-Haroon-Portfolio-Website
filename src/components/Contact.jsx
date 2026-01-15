@@ -82,14 +82,15 @@ const Contact = () => {
           </p>
           <p>
             <strong>🔗 LinkedIn:</strong>{" "}
-            <a
-              href="https://www.linkedin.com/in/arham-haroon-7a6bb8243"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:underline"
-            >
-              www.linkedin.com/in/arham-haroon-7a6bb8243
-            </a>
+           <a
+  href="https://www.linkedin.com/in/arham-haroon-7a6bb8243"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-blue-400 hover:underline"
+>
+  /arham-haroon
+</a>
+
           </p>
         </div>
 
