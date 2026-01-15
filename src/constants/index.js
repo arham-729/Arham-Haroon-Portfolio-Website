@@ -2,6 +2,7 @@
 import {
   logo,
   backend,
+  docker,
   creator,
   mobile,
   web,
@@ -16,10 +17,10 @@ import {
   express,
   aws,
   mui,
-  
   gsap,
   framer,
   figma,
+
   git,
   html,
   javascript,
@@ -32,12 +33,34 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
-} from '../assets'
 
+  // NEW AI/ML & LANGUAGE TECH ICONS
+  python,
+  tensorflow,
+  pytorch,
+  numpy,
+  pandas,
+  opencv,
+  cpp,
+  java,
+  cicon,
+
+} from '../assets';
+
+import machvisLogo from "../assets/company/machvis_logo.jpeg";
+import pacLogo from "../assets/company/Pakistan_Aeronautical_Complex.png";
+import rapidevLogo from "../assets/company/rapidev_logo.jpg";
+import nustforum from "../assets/nustforum.png";
+import seecsrec from "../assets/seecsrec.jpeg";
+import xmed from "../assets/xmed.jpeg";
 
 // Import Tekisky separately
 import tekisky from "../assets/company/tekisky.png";
 
+import cisco from '../assets/cisco.png';   // Replace with actual cert image
+import ml from '../assets/ml.png';
+import dl from '../assets/dl.png';
+import { s } from 'maath/dist/misc-7d870b3c.esm';
 
 export const navLinks = [
 
@@ -58,115 +81,146 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Full-Stack Developer",
-    icon: web,
+   {
+    title: "Data Scientist",
+    icon: web, 
   },
   {
-    title: "Frontend Developer",
+    title: "AI Engineer",
+    icon: backend, 
+  },
+ 
+  {
+    title: "Machine Learning & Deep Learning Enthusiast",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Ui UX Designer",
+    title: "Full Stack Developer",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "C++",
+    icon: cpp,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "C",
+    icon: cicon,
   },
   {
-    name: "gsap",
-    icon: gsap,
+    name: "TensorFlow",
+    icon: tensorflow,
   },
   {
-    name: "framer",
-    icon: framer,
-  },
-
- 
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "pytorch",
+    icon: pytorch,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "NumPy",
+    icon: numpy,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Pandas",
+    icon: pandas,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "OpenCV",
+    icon: opencv,
   },
+  
   {
-    name: "Material Ui",
-    icon: mui,
+    name: "Docker",
+    icon: docker,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Express Js",
-    icon: express,
-  },
-  {
-    name: "AWS",
-    icon: aws,
-  },
+  
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "MySql",
+    name: "MySQL",
     icon: mysql,
   },
-
   {
-    name: "git",
+    name: "Node.js",
+    icon: nodejs,
+  },
+  {
+    name: "React",
+    icon: reactjs,
+  },
+  
+  {
+    name: "Express",
+    icon: express,
+  },
+  {
+    name: "Git",
     icon: git,
   },
- 
-
+  
+  {
+    name: "Github",
+    icon: github,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
 ];
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
-    iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    title: "IT Intern",
+    company_name: "Pakistan Aeronautical Complex Kamra (AMF)",
+    icon: pacLogo,
+    iconBg: "#1a1a1a",
+    date: "Jun 2023 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Researched and gained hands-on experience in IT and cybersecurity, focusing on network security, vulnerability management, and threat analysis.",
+      "Collaborated with senior IT staff to improve system protocols and enhance data security measures.",
+      "Assisted in network operations, troubleshooting, and routine system maintenance.",
+      "Supported server operations including user access control and enterprise-level IT solutions.",
+    ],
+  },
+  {
+    title: "AI Intern",
+    company_name: "Rapidev (NSTP)",
+    icon: rapidevLogo,
+    iconBg: "#151515",
+    date: "Jun 2025 - Aug 2025",
+    points: [
+      "Researched and contributed to projects involving Agentic AI, NLP, and Computer Vision in real-world applications.",
+      "Collaborated on model development, optimization, and integration into production pipelines.",
+      "Assisted in data preprocessing, model fine-tuning, and performance evaluation.",
+      "Supported deployment and integration of AI models into research and business workflows.",
+    ],
+  },
+  {
+    title: "AI Intern",
+    company_name: "MachVis Lab",
+    icon: machvisLogo,
+    iconBg: "#151515",
+    date: "Jun 2025 - Nov 2025",
+    points: [
+      "Worked on Computer Vision, NLP, and LLM-based projects, contributing to model development, fine-tuning, and evaluation.",
+      "Integrated and optimized AI models within research workflows and real-world application pipelines.",
+      "Preprocessed datasets and improved model performance for practical deployment.",
+      "Collaborated with senior researchers on cutting-edge AI projects to produce high-impact results.",
     ],
   },
 ];
+
 
 const testimonials = [
   {
@@ -197,77 +251,43 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "SEECS AI Receptionist",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Developed an AI-powered receptionist system using LLaMA and Retrieval-Augmented Generation (RAG), designed to answer queries in real-time through both audio and text. Integrated large language models and RAG for efficient, interactive communication.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
- 
+      { name: "llama", color: "blue-text-gradient" },
+      { name: "rag", color: "green-text-gradient" },
+      { name: "ai", color: "pink-text-gradient" },
     ],
-    image: project2,
-    source_code_link: "https://github.com/",
+    image: seecsrec, // Replace with an actual image if available
+    source_code_link: "https://github.com/bytesy-z/SEECS-AI-Receptionist", // Replace with actual link
   },
   {
-    name: "GearXpert",
+    name: "XMedFusion ",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "Built a multimodal, agent-based system for automated radiology report generation from chest X-rays and CT scans using computer vision and LLMs. Used knowledge-graph–grounded reasoning for explainable outputs. Added human-in-the-loop validation for clinical reliability.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
+      { name: "Agentic AI", color: "green-text-gradient" },
+      { name: "LLM", color: "blue-text-gradient" },
+      { name: "Explainability", color: "pink-text-gradient" },
     ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
+    image: xmed, // Replace with actual image if available
+    source_code_link: "https://github.com/maha-baig/XMedAgent", // Replace with actual link
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "NUST Forum",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "Developed a community forum for NUST students and faculty using the MERN stack, integrating user authentication, real-time chat, and advanced search for seamless interaction. Focused on scalable backend APIs and responsive UI design to support active campus engagement.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: "express", color: "white-text-gradient" },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "node", color: "pink-text-gradient" },
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    image: nustforum, // Replace with actual image if available
+    source_code_link: "https://github.com/Suman-punshi/Nust-forum", // Replace with actual link
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
